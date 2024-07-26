@@ -6,15 +6,17 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='email.css'>
 </head>
 
 <body>
     
-        <form action="" name="frmEnvia" onsubmit="return (verifica())">
+        <div class="container">
+        <form action="post" name="frmEnvia" onsubmit="return (verifica()) ">
+            <h1>VALIDAÇÃO DE EMAIL</h1>
             <label for="">Email:</label>
-            <input type="text" name="email" onblur="checarEmail()">
-            <input type="submit" value="ENVIAR">
+            <input type="text" id="email" name="email" onblur="checarEmail()">
+            <input type="submit" value="ENVIAR" id="button">
         </form>
         <div id="email"> </div>
 

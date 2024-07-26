@@ -1,0 +1,44 @@
+h1{
+    font-family: calibri;
+    font-size: 28px;
+}
+html, body{
+    padding: 0;
+    height: 100%;
+}
+body{
+    display: flex;
+    background-color: rgb(170, 135, 203);
+}
+#button{
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(87, 0, 128);
+    margin-top: 30px;
+}
+form{
+    display: flex;
+    background-color: rgb(204, 204, 204);
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 300px;
+    height: 100%;
+}
+
+input#email{
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+}
+label{
+    font-family: verdana;
+}
