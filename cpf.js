@@ -4,7 +4,8 @@
 document.getElementById('CPFform').addEventListener('submit', function (event) {
     event.preventDefault();
 
-    const CPF = document.getElementById('CPF').value; const msg = document.getElementById('message');
+    const CPF = document.getElementById('CPF').value; 
+    const msg = document.getElementById('message');
 
     if (validarCPF(CPF)) {
         msg.textContent = "O CPF é válido!";
@@ -16,9 +17,6 @@ document.getElementById('CPFform').addEventListener('submit', function (event) {
     }
 }
 );
-
-
-
 
 // FUNÇÃO DE CÁCULO DE VALIDAÇÃO DE CPF
 function validarCPF(CPF) {
